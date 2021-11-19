@@ -1,12 +1,15 @@
+//programma ishet pervie N chisel, u kotorih vtoroi s kontsa bite - zerkalnoe otrazhenie poslednego
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "my_functions.h"
 
-int main(void)
+int main(void)//Gubenko Olesya 112
 {
 	char filename[120];
 	int N;
 	FILE *fout;
+	printf("Programma ishet pervie N chisel, u kotorih vtoroi s kontsa bite - zerkalnoe otrazhenie poslednego.\n");
 	printf("Enter the name of the file: ");
 	scanf("%s", filename);
 	fout=fopen(filename, "w");
