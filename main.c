@@ -1,7 +1,6 @@
 //programma ishet pervie N chisel, u kotorih vtoroi s kontsa bite - zerkalnoe otrazhenie poslednego
 
 #include <stdio.h>
-#include <stdlib.h>
 #include "my_functions.h"
 
 int main(void)//Gubenko Olesya 112

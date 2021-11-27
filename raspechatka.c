@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int raspechatka (FILE *fout, int a)//Gubenko Olesya 112
+int raspechatka (FILE *fout, int a) //Gubenko Olesya 112
 {
 	int i, mask=1<<30;
 	if(a<0)
